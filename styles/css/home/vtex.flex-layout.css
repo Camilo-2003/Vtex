@@ -53,13 +53,20 @@
 .flexRow--view__container-title {
   max-width: 1200px;
 }
-@media (max-width: 768px) {
+.flexRowContent--categories-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 11px;
+}
+/* @media (max-width: 768px) {
   .flexRowContent--categories-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
-}
+} */
 @media (max-width: 600px) {
   .flexRowContent--featured-grid-row  {
     display: grid;

@@ -3,7 +3,8 @@
     "title": "Global - Procesadores page static",
     "children": [
       "flex-layout.row#view__procesadores--text",
-      "flex-layout.row#contenido__category-procesadores"
+      "flex-layout.row#contenido__category-procesadores",
+      "whatsapp-button"
     ]
   },
   

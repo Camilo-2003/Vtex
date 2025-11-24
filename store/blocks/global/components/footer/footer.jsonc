@@ -23,14 +23,14 @@
       "text": "Luokka Technology by D.O",
       "blockClass": "footer-text"
     }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": [
-        "visa",
-        "mastercard"
-      ],
-      "blockClass": "footer-payment-methods"
-    }
   }
+  // "accepted-payment-methods": {
+  //   "props": {
+  //     "paymentMethods": [
+  //       "visa",
+  //       "mastercard"
+  //     ],
+  //     "blockClass": "footer-payment-methods"
+  //   }
+  // }
 }

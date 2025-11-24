@@ -1,0 +1,89 @@
+{
+  "list-context.bullet-group": {
+    "title": "Contexto de lista de bullets",
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/image-1.jpg",
+          "title": "Computadores",
+          "link": {
+            "url": "/computadores"
+          }
+        },
+        {
+          "image": "assets/img/image-2.jpg",
+          "title": "Videojuegos",
+          "link": {
+            "url": "/videojuegos"
+          }
+        },
+        {
+          "image": "assets/img/image-3.jpg",
+          "title": "Cámaras de video",
+          "link": {
+            "url": "/camara"
+          }
+        },
+        {
+          "image": "assets/img/image-4.jpg",
+          "title": "Smart TV",
+          "link": {
+            "url": "/smart-tv"
+          }
+        },
+        {
+          "image": "assets/img/image-5.jpg",
+          "title": "Celulares",
+          "link": {
+            "url": "/celulares"
+          }
+        },
+        {
+          "image": "assets/img/image-6.jpg",
+          "title": "Electrodomésticos",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/image-7.jpg",
+          "title": "Audio",
+          "link": {
+            "url": "/audio"
+          }
+        },
+        {
+          "image": "assets/img/image-8.jpg",
+          "title": "Cargadores",
+          "link": {
+            "url": "/cargadores"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#futuras__categorias--title",
+      "slider-layout#bullets__group"
+    ]
+  },
+
+  "rich-text#futuras__categorias--title": {
+    "props": {
+      "text": "Futuras Categorías",
+      "blockClass": "bullet__group-header-text"
+    }
+  },
+
+  "slider-layout#bullets__group": {
+    "title": "Slider de bullets group",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "blockClass": "home__bullet-group",
+      "infinite": true
+    }
+  }
+}

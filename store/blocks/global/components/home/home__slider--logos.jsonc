@@ -19,33 +19,33 @@
         },
         { 
           "loading": "lazy",
-          "image": "assets/img/amd.png",
-          "description": "Amd Logo"
-        },
-        {
-          "loading": "lazy",
-          "image": "assets/img/logo.webp",
-          "description": "Luoka Logo"
-        },
-        {
-          "loading": "lazy",
-          "image": "assets/img/toshiba.jpeg",
-          "description": "Toshiba Logo"
-        },
-        {
-          "loading": "lazy",
-          "image": "assets/img/patriot.png",
-          "description": "Patriot Logo"
+          "image": "assets/img/crucial.png",
+          "description": "Crucial Logo"
         },
         {
           "loading": "lazy",
           "image": "assets/img/amd.png",
-          "description": "Amd Logo"
+          "description": "AMD Logo"
         },
         {
           "loading": "lazy",
-          "image": "assets/img/logo.webp",
-          "description": "Luoka Logo"
+          "image": "assets/img/asrock.png",
+          "description": "Asrock Logo"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/img/seagate.png",
+          "description": "Seagate Logo"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/img/gygabyte.png",
+          "description": "Gygabyte Logo"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/img/kingston.png",
+          "description": "Kingston Logo"
         }
       ]
     }

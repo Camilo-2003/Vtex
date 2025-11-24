@@ -61,6 +61,9 @@
     "props": {
       "src": "assets/img/logo-1.png",
       "alt": "Procesadores",
+      "link": {
+        "url": "/procesadores"
+      },
       "maxHeight": 80,
       "blockClass": "category-image"
     }
@@ -87,8 +90,11 @@
   },
   "image#category-2": {
     "props": {
-      "src": "assets/img/logo-2.png",
+      "src": "assets/img/logo-2.png", 
       "alt": "Boards",
+      "link": {
+        "url": "/motherboards"
+      },
       "maxHeight": 80,
       "blockClass": "category-image"
     }
@@ -116,6 +122,9 @@
     "props": {
       "src": "assets/img/logo-3.png",
       "alt": "Ram",
+      "link": {
+        "url": "/ram"
+      },
       "maxHeight": 80,
       "blockClass": "category-image"
     }
@@ -143,6 +152,9 @@
     "props": {
       "src": "assets/img/logo-4.png",
       "alt": "Almacenamiento",
+      "link": {
+        "url": "/almacenamiento"
+      },
       "maxHeight": 80,
       "blockClass": "category-image"
     }
@@ -171,6 +183,9 @@
     "props": {
       "src": "assets/img/logo-5.png",
       "alt": "Tarjetas de video",
+      "link": {
+        "url": "/tarjetas-de-video"
+      },
       "maxHeight": 80,
       "blockClass": "category-image"
     }
@@ -199,6 +214,9 @@
     "props": {
       "src": "assets/img/logo-6.png",
       "alt": "Fuentes",
+      "link": {
+        "url": "/fuentes"
+      },
       "maxHeight": 80,
       "blockClass": "category-image"
     }

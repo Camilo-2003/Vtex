@@ -4,11 +4,13 @@
       "list-context.image-list#demo",
       "list-context.image-list#logos",
       "flex-layout.row#text__one--home",
-      "flex-layout.row#featured-products"
+      "flex-layout.row#featured-products",
+      "list-context.bullet-group",
+      "whatsapp-button"
       // "responsive-layout.desktop#home__section--1",
       // "responsive-layout.tablet#home__section--1",
       // "responsive-layout.phone#home__section--1",
       // "responsive-layout.mobile#home__section--1"
     ]
   }
-} 
+}

@@ -3,7 +3,8 @@
     "title": "Page of almacenamiento",
     "children": [
       "flex-layout.row#page__almacenamiento",
-      "flex-layout.row#contenido__category-almacenamiento"
+      "flex-layout.row#contenido__category-almacenamiento",
+      "whatsapp-button"
     ]
   },
 

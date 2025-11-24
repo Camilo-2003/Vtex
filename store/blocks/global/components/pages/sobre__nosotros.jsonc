@@ -2,7 +2,8 @@
   "store.custom#sobre__nosotros": {
     "title": "Page of about us",
     "children": [
-      "flex-layout.row#page__sobre__nosotros"
+      "flex-layout.row#page__sobre__nosotros",
+      "whatsapp-button"
     ]
   },
 

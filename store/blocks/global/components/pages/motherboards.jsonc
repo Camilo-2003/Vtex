@@ -3,7 +3,8 @@
     "title": "Page of motherboards",
     "children": [
       "flex-layout.row#page__motherboards",
-      "flex-layout.row#contenido__category-motherboards"
+      "flex-layout.row#contenido__category-motherboards",
+      "whatsapp-button"
     ]
   },
 

@@ -1,0 +1,13 @@
+{
+  "whatsapp-button": {
+    "title": "Botón de WhatsApp",
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "573106187108",
+      "message": "Hola, estaba en www.luokka.co y quiero saber acerca de: ",
+      "alt": "Imagen del logo de whatsapp",
+      "width": 38,    
+      "height": 38
+    }
+  }
+}

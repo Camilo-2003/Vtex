@@ -69,7 +69,7 @@
   },
   "image#product-1": {
     "props": {
-      "src": "assets/products/p1.webp",
+      "src": "assets/products/destacados/p1.webp",
       "alt": "Product 1"
     }
   },
@@ -111,7 +111,7 @@
   },
   "image#product-2": {
     "props": {
-      "src": "assets/products/p2.webp",
+      "src": "assets/products/destacados/p2.webp",
       "alt": "Product 2"
     }
   },
@@ -153,7 +153,7 @@
   },
   "image#product-3": {
     "props": {
-      "src": "assets/products/p3.webp",
+      "src": "assets/products/destacados/p3.webp",
       "alt": "Product 3"
     }
   },
@@ -195,7 +195,7 @@
   },
   "image#product-4": {
     "props": {
-      "src": "assets/products/p4.webp",
+      "src": "assets/products/destacados/p4.webp",
       "alt": "Product 4"
     }
   },
@@ -238,7 +238,7 @@
   },
   "image#product-5": {
     "props": {
-      "src": "assets/products/p5.webp",
+      "src": "assets/products/destacados/p5.webp",
       "alt": "Product 5"
     }
   },
@@ -280,7 +280,7 @@
     }
   },
   "image#product-6": {
-    "props": { "src": "assets/products/p6.webp", "alt": "Product 6" }
+    "props": { "src": "assets/products/destacados/p6.webp", "alt": "Product 6" }
   },
   "rich-text#cat-6": {
     "props": {
@@ -320,7 +320,7 @@
   },
   "image#product-7": {
     "props": {
-      "src": "assets/products/p7.webp",
+      "src": "assets/products/destacados/p7.webp",
       "alt": "Product 7"
     }
   },
@@ -362,7 +362,7 @@
   },
   "image#product-8": {
     "props": {
-      "src": "assets/products/p8.webp",
+      "src": "assets/products/destacados/p8.webp",
       "alt": "Product 8"
     }
   },
@@ -404,7 +404,7 @@
   },
   "image#product-9": {
     "props": {
-      "src": "assets/products/p9.webp",
+      "src": "assets/products/destacados/p9.webp",
       "alt": "Product 9"
     }
   },
@@ -446,7 +446,7 @@
   },
   "image#product-10": {
     "props": {
-      "src": "assets/products/p10.webp",
+      "src": "assets/products/destacados/p10.webp",
       "alt": "Product 10"
     }
   },

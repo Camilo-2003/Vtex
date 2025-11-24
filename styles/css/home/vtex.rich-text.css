@@ -95,10 +95,18 @@
   text-align: left;
 }
 .paragraph--view__title-category {
-  /* font-family: "Roboto", Noto Sans; */
   font-size: 24px;
   font-weight: bold;
   margin-top: 9px;
   margin-left: 50px;
+  color: #000;
+}
+.container--bullet__group-header-text {
+  justify-content: center;
+}
+.paragraph--bullet__group-header-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
   color: #000;
 }

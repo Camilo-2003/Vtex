@@ -3,7 +3,8 @@
     "title": "Page of ram",
     "children": [
       "flex-layout.row#page__ram",
-      "flex-layout.row#contenido__category-ram"
+      "flex-layout.row#contenido__category-ram",
+      "whatsapp-button"
     ]
   },
 
@@ -62,7 +63,7 @@
 
   "image#ram-1": {
     "props": {
-      "src": "assets/products/p1.webp"
+      "src": "assets/products/destacados/p1.webp"
     }
   },
   "rich-text#ram__title-1": {
@@ -104,7 +105,7 @@
 
   "image#ram-2": {
     "props": {
-      "src": "assets/products/p8.webp"
+      "src": "assets/products/destacados/p8.webp"
     }
   },
   "rich-text#ram__title-2": {
@@ -147,7 +148,7 @@
 
   "image#ram-3": {
     "props": {
-      "src": "assets/products/p3.webp"
+      "src": "assets/products/destacados/p3.webp"
     }
   },
   "rich-text#ram__title-3": {
@@ -189,7 +190,7 @@
 
   "image#ram-4": {
     "props": {
-      "src": "assets/products/p4.webp"
+      "src": "assets/products/destacados/p4.webp"
     }
   },
   "rich-text#ram__title-4": {
@@ -238,7 +239,7 @@
   },
   "image#ram-5": {
     "props": {
-      "src": "assets/products/p1.webp"
+      "src": "assets/products/destacados/p1.webp"
     }
   },
   "rich-text#ram__title-5": {
@@ -280,7 +281,7 @@
 
   "image#ram-6": {
     "props": {
-      "src": "assets/products/p8.webp"
+      "src": "assets/products/destacados/p8.webp"
     }
   },
   "rich-text#ram__title-6": {
@@ -322,7 +323,7 @@
 
   "image#ram-7": {
     "props": {
-      "src": "assets/products/p3.webp"
+      "src": "assets/products/destacados/p3.webp"
     }
   },
   "rich-text#ram__title-7": {
@@ -364,7 +365,7 @@
 
   "image#ram-8": {
     "props": {
-      "src": "assets/products/p4.webp"
+      "src": "assets/products/destacados/p4.webp"
     }
   },
   "rich-text#ram__title-8": {

@@ -3,7 +3,8 @@
     "title": "Page of tienda",
     "children": [
       "flex-layout.row#page__tienda",
-      "flex-layout.row#contenido__category-tienda"
+      "flex-layout.row#contenido__category-tienda",
+      "whatsapp-button"
     ]
   },
   "flex-layout.row#page__tienda": {

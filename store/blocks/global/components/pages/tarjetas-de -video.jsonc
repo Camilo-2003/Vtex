@@ -3,7 +3,8 @@
     "title": "Page of tarjetas de video",
     "children": [
       "flex-layout.row#view__tarjetas__de__video",
-      "flex-layout.row#contenido__category-tarjetas__de__video"
+      "flex-layout.row#contenido__category-tarjetas__de__video",
+      "whatsapp-button"
     ]
   },
 

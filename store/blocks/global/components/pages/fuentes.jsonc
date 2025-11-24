@@ -3,7 +3,8 @@
     "title": "Page of fuentes",
     "children": [
       "flex-layout.row#page__fuentes",
-      "flex-layout.row#contenido__category-fuentes"
+      "flex-layout.row#contenido__category-fuentes",
+      "whatsapp-button"
     ]
   },
 
