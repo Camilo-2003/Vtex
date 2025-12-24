@@ -9,11 +9,101 @@
 .imageElement--category-image {
   border-radius: 20px; 
 }
+.imageElement:hover {
+  cursor: pointer;
+}
 .searchBarContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 .searchIcon {
   font-size: 20px;
+}
+/* Proximamente */
+.imageElement--proximamente--image {
+  margin: 0 auto;
+  display: block;
+  width: 97%;
+  height: 400px;
+  padding: 20px 0;
+  object-fit: contain;
+}
+/* Custom Grid */
+.imageElement--custom-grid__item {
+  box-shadow: 1px 1px 7px #000000;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+/* PDP */
+.productImagesContainer--container-image {
+  max-width: 470px;
+}
+/* Imagen product-summary-image */
+.discountContainer {
+  height: 100%;
+}
+.buyButtonText--buttonText--buy-button {
+  color: #c9591b;
+  font-size: 14px;
+  font-weight: 550;
+  border: 1px solid #c9591b;
+  padding: 8px;
+  border-radius: 5px;
+  text-transform: none;
+}
+.buyButtonText--buttonText--buy-button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #c9591b;
+  border: 1px solid black;
+  transition: all .3s linear;
+}
+.productDescriptionTitle {
+  margin-top: 20px;
+  text-align: center;
+  color: #0f3e99;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Precio en la (PDP) */
+.price_sellingPrice {
+  color: #c9591b;
+  margin-top: 7px;
+  font-size: 23px;
+  font-weight: 600;
+}
+/*Boton ver mas cuando la descripcion es muy larga en la (PDP)*/
+.showMoreButton {
+  background-color: #0f3e99;
+  color: white;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-transform: none;
+}
+.showMoreButton:hover {
+  background-color: #4b80ea;
+  transition: background 0.4s ease-in-out;
+}
+.imageElement--image--control {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.imageElement--image--control:hover {
+  animation: hoverImage 2s ease-in-out infinite;
+}
+@keyframes hoverImage {
+  0% {
+    transform: translateY(-6px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-6px);
+  }
 }

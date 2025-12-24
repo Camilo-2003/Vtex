@@ -1,0 +1,50 @@
+{
+  "custom-grid": {
+    "title": "Grilla Personalizada",
+    "props": {
+      "blockClass": "custom-grid"
+    },
+    "children": [
+      "image#grid__one",
+      "image#grid__two",
+      "image#grid__three",
+      "image#grid__four",
+      "image#grid__five"
+    ]
+  },
+  "image#grid__one": {
+    "title": "Grid Image One",
+    "props": {
+      "src": "assets/products/controles/control-5.webp",
+      "blockClass": "custom-grid__item"
+    }
+  },
+  "image#grid__two": {
+    "title": "Grid Image Two",
+    "props": {
+      "src": "assets/products/controles/control-2.webp",
+      "blockClass": "custom-grid__item"
+    }
+  },
+  "image#grid__three": {
+    "title": "Grid Image Three",
+    "props": {
+      "src": "assets/products/controles/control-3.webp",
+      "blockClass": "custom-grid__item"
+    }
+  },
+  "image#grid__four": {
+    "title": "Grid Image Four",
+    "props": {
+      "src": "assets/products/controles/control-4.webp",
+      "blockClass": "custom-grid__item"
+    }
+  },
+  "image#grid__five": {
+    "title": "Grid Image Five",
+    "props": {
+      "src": "assets/products/controles/control-1.webp",
+      "blockClass": "custom-grid__item"
+    }
+  }
+}

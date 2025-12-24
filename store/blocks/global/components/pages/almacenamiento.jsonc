@@ -10,9 +10,7 @@
 
   "flex-layout.row#page__almacenamiento": {
     "title": "Row Page of almacenamiento",
-    "children": [
-      "rich-text#almacenamiento--text"
-    ]
+    "children": ["rich-text#almacenamiento--text"]
   },
 
   "rich-text#almacenamiento--text": {
@@ -24,24 +22,24 @@
   },
   "flex-layout.row#contenido__category-almacenamiento": {
     "title": "Row Contenido of almacenamiento",
-    "children": [
-      "flex-layout.col#almacenamiento"
-    ],
+    "children": ["flex-layout.col#almacenamiento"],
     "props": {
       "blockClass": "contenido__tarjeta"
     }
   },
-  
+
   "flex-layout.col#almacenamiento": {
     "children": [
       "flex-layout.row#almacenamiento__1",
-      "flex-layout.row#almacenamiento__2"
+      "flex-layout.row#almacenamiento__2",
+      "flex-layout.row#almacenamiento__3",
+      "flex-layout.row#almacenamiento__4"
     ],
     "props": {
       "blockClass": "col__tarjetas--almacenamiento"
     }
   },
-  
+
   "flex-layout.row#almacenamiento__1": {
     "children": [
       "flex-layout.col#almacenamiento-1",
@@ -63,7 +61,7 @@
       "blockClass": "static-shelf-item"
     }
   },
-  
+
   "image#almacenamiento-1": {
     "props": {
       "src": "assets/products/almacenamiento/a-2.webp"
@@ -75,7 +73,7 @@
       "blockClass": "featured-category"
     }
   },
-    "rich-text#almacenamiento__descripcion-1": {
+  "rich-text#almacenamiento__descripcion-1": {
     "props": {
       "text": "Disco Externo 14 TB Seagate LACIE USB-C",
       "blockClass": "featured-description"
@@ -105,7 +103,7 @@
       "blockClass": "static-shelf-item"
     }
   },
-  
+
   "image#almacenamiento-2": {
     "props": {
       "src": "assets/products/almacenamiento/a-1.webp"
@@ -117,7 +115,7 @@
       "blockClass": "featured-category"
     }
   },
-    "rich-text#almacenamiento__descripcion-2": {
+  "rich-text#almacenamiento__descripcion-2": {
     "props": {
       "text": "Disco Externo 26 TB Seagate Expansion USB",
       "blockClass": "featured-description"
@@ -129,7 +127,7 @@
       "blockClass": "price"
     }
   },
-  
+
   "rich-text#almacenamiento__button-2": {
     "props": {
       "text": "Añadir al carrito",
@@ -137,7 +135,7 @@
     }
   },
   "flex-layout.col#almacenamiento-3": {
-     "children": [
+    "children": [
       "image#almacenamiento-3",
       "rich-text#almacenamiento__title-3",
       "rich-text#almacenamiento__descripcion-3",
@@ -148,7 +146,7 @@
       "blockClass": "static-shelf-item"
     }
   },
-  
+
   "image#almacenamiento-3": {
     "props": {
       "src": "assets/products/almacenamiento/a-3.webp"
@@ -160,7 +158,7 @@
       "blockClass": "featured-category"
     }
   },
-    "rich-text#almacenamiento__descripcion-3": {
+  "rich-text#almacenamiento__descripcion-3": {
     "props": {
       "text": "Disco SSD 256 GB Patriot",
       "blockClass": "featured-description"
@@ -178,8 +176,8 @@
       "blockClass": "buy-button"
     }
   },
-    "flex-layout.col#almacenamiento-4": {
-     "children": [
+  "flex-layout.col#almacenamiento-4": {
+    "children": [
       "image#almacenamiento-4",
       "rich-text#almacenamiento__title-4",
       "rich-text#almacenamiento__descripcion-4",
@@ -190,7 +188,7 @@
       "blockClass": "static-shelf-item"
     }
   },
-  
+
   "image#almacenamiento-4": {
     "props": {
       "src": "assets/products/almacenamiento/a-4.webp"
@@ -202,7 +200,7 @@
       "blockClass": "featured-category"
     }
   },
-    "rich-text#almacenamiento__descripcion-4": {
+  "rich-text#almacenamiento__descripcion-4": {
     "props": {
       "text": "Disco Solido SSD M.2 500 GB Kingston NV3",
       "blockClass": "featured-description"
@@ -214,13 +212,13 @@
       "blockClass": "price"
     }
   },
-    "rich-text#almacenamiento__button-4": {
+  "rich-text#almacenamiento__button-4": {
     "props": {
       "text": "Añadir al carrito",
       "blockClass": "buy-button"
     }
   },
-    "flex-layout.row#almacenamiento__2": {
+  "flex-layout.row#almacenamiento__2": {
     "children": [
       "flex-layout.col#almacenamiento-5",
       "flex-layout.col#almacenamiento-6",
@@ -229,7 +227,7 @@
     ]
   },
   "flex-layout.col#almacenamiento-5": {
-     "children": [
+    "children": [
       "image#almacenamiento-5",
       "rich-text#almacenamiento__title-5",
       "rich-text#almacenamiento__descripcion-5",
@@ -251,7 +249,7 @@
       "blockClass": "featured-category"
     }
   },
-    "rich-text#almacenamiento__descripcion-5": {
+  "rich-text#almacenamiento__descripcion-5": {
     "props": {
       "text": "Disco Solido SSD M.2 2 TB Kingston NV3",
       "blockClass": "featured-description"
@@ -281,7 +279,7 @@
       "blockClass": "static-shelf-item"
     }
   },
-  
+
   "image#almacenamiento-6": {
     "props": {
       "src": "assets/products/almacenamiento/a-6.webp"
@@ -293,7 +291,7 @@
       "blockClass": "featured-category"
     }
   },
-    "rich-text#almacenamiento__descripcion-6": {
+  "rich-text#almacenamiento__descripcion-6": {
     "props": {
       "text": "Disco Externo 5 TB Adata",
       "blockClass": "featured-description"
@@ -312,7 +310,7 @@
     }
   },
   "flex-layout.col#almacenamiento-7": {
-     "children": [
+    "children": [
       "image#almacenamiento-7",
       "rich-text#almacenamiento__title-7",
       "rich-text#almacenamiento__descripcion-7",
@@ -323,7 +321,7 @@
       "blockClass": "static-shelf-item"
     }
   },
-  
+
   "image#almacenamiento-7": {
     "props": {
       "src": "assets/products/almacenamiento/a-7.webp"
@@ -335,7 +333,7 @@
       "blockClass": "featured-category"
     }
   },
-    "rich-text#almacenamiento__descripcion-7": {
+  "rich-text#almacenamiento__descripcion-7": {
     "props": {
       "text": "Disco Externo 4 TB Adata",
       "blockClass": "featured-description"
@@ -353,8 +351,8 @@
       "blockClass": "buy-button"
     }
   },
-    "flex-layout.col#almacenamiento-8": {
-     "children": [
+  "flex-layout.col#almacenamiento-8": {
+    "children": [
       "image#almacenamiento-8",
       "rich-text#almacenamiento__title-8",
       "rich-text#almacenamiento__descripcion-8",
@@ -365,7 +363,7 @@
       "blockClass": "static-shelf-item"
     }
   },
-  
+
   "image#almacenamiento-8": {
     "props": {
       "src": "assets/products/almacenamiento/a-8.webp"
@@ -390,6 +388,358 @@
     }
   },
   "rich-text#almacenamiento__button-8": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.row#almacenamiento__3": {
+    "children": [
+      "flex-layout.col#almacenamiento-9",
+      "flex-layout.col#almacenamiento-10",
+      "flex-layout.col#almacenamiento-11",
+      "flex-layout.col#almacenamiento-12"
+    ]
+  },
+  "flex-layout.col#almacenamiento-9": {
+    "children": [
+      "image#almacenamiento-9",
+      "rich-text#almacenamiento__title-9",
+      "rich-text#almacenamiento__descripcion-9",
+      "rich-text#precio__almacenamiento-9",
+      "rich-text#almacenamiento__button-9"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#almacenamiento-9": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-9.webp"
+    }
+  },
+  "rich-text#almacenamiento__title-9": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#almacenamiento__descripcion-9": {
+    "props": {
+      "text": "Disco Externo 4 TB Toshiba Advance Color Rojo",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__almacenamiento-9": {
+    "props": {
+      "text": "$ 489.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#almacenamiento__button-9": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#almacenamiento-10": {
+    "children": [
+      "image#almacenamiento-10",
+      "rich-text#almacenamiento__title-10",
+      "rich-text#almacenamiento__descripcion-10",
+      "rich-text#precio__almacenamiento-10",
+      "rich-text#almacenamiento__button-10"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#almacenamiento-10": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-10.webp"
+    }
+  },
+  "rich-text#almacenamiento__title-10": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#almacenamiento__descripcion-10": {
+    "props": {
+      "text": "Disco Sata NAS 16 TB Toshiba 7200 Rpm 512MB Cache",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__almacenamiento-10": {
+    "props": {
+      "text": "$ 1.369.000",
+      "blockClass": "price"
+    }
+  },
+
+  "rich-text#almacenamiento__button-10": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#almacenamiento-11": {
+    "children": [
+      "image#almacenamiento-11",
+      "rich-text#almacenamiento__title-11",
+      "rich-text#almacenamiento__descripcion-11",
+      "rich-text#precio__almacenamiento-11",
+      "rich-text#almacenamiento__button-11"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#almacenamiento-11": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-11.webp"
+    }
+  },
+  "rich-text#almacenamiento__title-11": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#almacenamiento__descripcion-11": {
+    "props": {
+      "text": "Disco Solido M.2 1 TB Crucial E100 PCIe 4.0 2280",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__almacenamiento-11": {
+    "props": {
+      "text": "$ 293.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#almacenamiento__button-11": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#almacenamiento-12": {
+    "children": [
+      "image#almacenamiento-12",
+      "rich-text#almacenamiento__title-12",
+      "rich-text#almacenamiento__descripcion-12",
+      "rich-text#precio__almacenamiento-12",
+      "rich-text#almacenamiento__button-12"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#almacenamiento-12": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-12.webp"
+    }
+  },
+  "rich-text#almacenamiento__title-12": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#almacenamiento__descripcion-12": {
+    "props": {
+      "text": "Disco Solido 7.68 TB Kingston DC600M 6900 Rpm 480MB Cache",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__almacenamiento-12": {
+    "props": {
+      "text": "$ 1.520.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#almacenamiento__button-12": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.row#almacenamiento__4": {
+    "children": [
+      "flex-layout.col#almacenamiento-13",
+      "flex-layout.col#almacenamiento-14",
+      "flex-layout.col#almacenamiento-15",
+      "flex-layout.col#almacenamiento-16"
+    ]
+  },
+  "flex-layout.col#almacenamiento-13": {
+    "children": [
+      "image#almacenamiento-13",
+      "rich-text#almacenamiento__title-13",
+      "rich-text#almacenamiento__descripcion-13",
+      "rich-text#precio__almacenamiento-13",
+      "rich-text#almacenamiento__button-13"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#almacenamiento-13": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-9.webp"
+    }
+  },
+  "rich-text#almacenamiento__title-13": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#almacenamiento__descripcion-13": {
+    "props": {
+      "text": "Disco Externo 6 TB Toshiba Advance Color Rojo",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__almacenamiento-13": {
+    "props": {
+      "text": "$ 731.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#almacenamiento__button-13": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#almacenamiento-14": {
+    "children": [
+      "image#almacenamiento-14",
+      "rich-text#almacenamiento__title-14",
+      "rich-text#almacenamiento__descripcion-14",
+      "rich-text#precio__almacenamiento-14",
+      "rich-text#almacenamiento__button-14"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#almacenamiento-14": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-10.webp"
+    }
+  },
+  "rich-text#almacenamiento__title-14": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#almacenamiento__descripcion-14": {
+    "props": {
+      "text": "Disco Sata NAS 16 TB Toshiba 7300 Rpm 512MB Cache",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__almacenamiento-14": {
+    "props": {
+      "text": "$ 1.400.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#almacenamiento__button-14": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#almacenamiento-15": {
+    "children": [
+      "image#almacenamiento-15",
+      "rich-text#almacenamiento__title-15",
+      "rich-text#almacenamiento__descripcion-15",
+      "rich-text#precio__almacenamiento-15",
+      "rich-text#almacenamiento__button-15"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#almacenamiento-15": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-11.webp"
+    }
+  },
+  "rich-text#almacenamiento__title-15": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#almacenamiento__descripcion-15": {
+    "props": {
+      "text": "Disco Solido M.2 2 TB Crucial E100 PCIe 4.0 2280",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__almacenamiento-15": {
+    "props": {
+      "text": "$ 586.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#almacenamiento__button-15": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#almacenamiento-16": {
+    "children": [
+      "image#almacenamiento-16",
+      "rich-text#almacenamiento__title-16",
+      "rich-text#almacenamiento__descripcion-16",
+      "rich-text#precio__almacenamiento-16",
+      "rich-text#almacenamiento__button-16"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#almacenamiento-16": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-12.webp"
+    }
+  },
+  "rich-text#almacenamiento__title-16": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#almacenamiento__descripcion-16": {
+    "props": {
+      "text": "Disco Solido 7.68 TB Kingston DC600M 7300 Rpm 512MB Cache",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__almacenamiento-16": {
+    "props": {
+      "text": "$ 1.600.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#almacenamiento__button-16": {
     "props": {
       "text": "Añadir al carrito",
       "blockClass": "buy-button"

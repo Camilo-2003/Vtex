@@ -1,7 +1,9 @@
 .socialNetworksContainer--footer-social-icons {
   user-select: none;
 }
+.socialNetworkImage--footer-social-icons {
+  transition: transform 1.2s ease-in-out;
+}
 .socialNetworkImage--footer-social-icons:hover {
   transform: rotate(50deg);
-  transition: transform 1s ease-in-out;
 }

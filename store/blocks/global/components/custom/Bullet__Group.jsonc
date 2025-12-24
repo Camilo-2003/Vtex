@@ -4,59 +4,73 @@
     "props": {
       "bullets": [
         {
-          "image": "assets/img/image-1.jpg",
+          "image": "assets/img/image-1.webp",
           "title": "Computadores",
           "link": {
-            "url": "/computadores"
+            "url": "/proximamente"
           }
         },
         {
           "image": "assets/img/image-2.jpg",
           "title": "Videojuegos",
           "link": {
-            "url": "/videojuegos"
+            "url": "/proximamente"
+            // "url": "/videojuegos"
           }
         },
         {
-          "image": "assets/img/image-3.jpg",
+          "image": "assets/img/image-3.png",
           "title": "Cámaras de video",
           "link": {
-            "url": "/camara"
+            "url": "/proximamente"
+            // "url": "/camara"
           }
         },
         {
-          "image": "assets/img/image-4.jpg",
+          "image": "assets/img/image-4.webp",
           "title": "Smart TV",
           "link": {
-            "url": "/smart-tv"
+            "url": "/proximamente"
+            // "url": "/smart-tv"
           }
         },
         {
-          "image": "assets/img/image-5.jpg",
+          "image": "assets/img/image-5.webp",
           "title": "Celulares",
           "link": {
-            "url": "/celulares"
+            "url": "/proximamente"
+            // "url": "/celulares"
           }
         },
         {
           "image": "assets/img/image-6.jpg",
           "title": "Electrodomésticos",
           "link": {
-            "url": "/electrodomesticos"
+            "url": "/proximamente"
+            // "url": "/electrodomesticos"
           }
         },
         {
-          "image": "assets/img/image-7.jpg",
+          "image": "assets/img/image-7.webp",
           "title": "Audio",
           "link": {
-            "url": "/audio"
+            "url": "/proximamente"
+            // "url": "/audio"
           }
         },
         {
-          "image": "assets/img/image-8.jpg",
+          "image": "assets/img/image-8.webp",
           "title": "Cargadores",
           "link": {
-            "url": "/cargadores"
+            "url": "/proximamente"
+            // "url": "/cargadores"
+          }
+        },
+        {
+          "image": "assets/products/controles/control-5.webp",
+          "title": "Controles",
+          "link": {
+            "url": "/proximamente"
           }
         }
       ]
@@ -83,7 +97,11 @@
         "phone": 5
       },
       "blockClass": "home__bullet-group",
-      "infinite": true
+      "infinite": true,
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
     }
   }
 }

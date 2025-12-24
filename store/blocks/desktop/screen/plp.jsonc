@@ -1,9 +1,9 @@
 {
   "search-result-layout.desktop": {
     "children": [
-      "gallery-layout-switcher",
-      "flex-layout.row#container__result--order-filter",
-      "search-content#global__search--layout"
+      "gallery-layout-switcher#diferentes__vistas",
+      "flex-layout.row#container__result--plp"
+      // "search-content#global__search--layout"
     ],
     "props": {
       "preventRouteChange": true

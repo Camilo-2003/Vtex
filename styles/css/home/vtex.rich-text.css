@@ -10,7 +10,6 @@
   margin: 10px;
 }
 .paragraph--header-text:hover {
-  text-decoration: underline;
   cursor: pointer;
 }
 .heading-level-1 {
@@ -20,8 +19,8 @@
 .paragraph--footer-text {
   text-align: center;
   color: gray;
-  font-size: 16px;
-  padding-top: 6px;
+  font-size: 14px;
+  padding-top: 9px;
   margin: 0;
 }
 .paragraph--featured-category {
@@ -64,6 +63,7 @@
   background-color: #c9591b;
   border: 1px solid black;
   cursor: pointer;
+  transition: all .3s linear;
 }
 .container--modal-text {
   margin-top: 11px;
@@ -109,4 +109,17 @@
   font-weight: bold;
   font-size: 24px;
   color: #000;
+}
+.wrapper--title--controls {
+  font-weight: 300;
+  font-size: 24px;
+  color: #2a4edc;
+  margin-bottom: -25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.wrapper--text--control {
+  margin-top: -25px;
+  /* font-weight: 600; */
+  font-size: 14px;
+  color: #c9591b;
 }

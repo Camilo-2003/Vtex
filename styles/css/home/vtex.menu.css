@@ -5,10 +5,16 @@
   margin: 0;
 }
 .menuContainer--subMenuContainer {
-  gap: 10px;
+  gap: 13px;
+  width: 186px;
 }
-.styledLinkContent--store:hover {
-  text-decoration: underline;
+.styledLinkContainer--store {
+  border-bottom: 1.2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+.styledLinkContainer--store:hover {
+  border-bottom: 1.2px solid black;
+  cursor: pointer;
 }
 .styledLinkContent {
   font-size: 16px;

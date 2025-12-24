@@ -6,4 +6,29 @@
       "shelf.relatedProducts"
     ]
   }
+
+  // "store.product": {
+  //   "children": [
+  //     "flex-layout.row#main"
+  //   ]
+  // },
+  // "flex-layout.row#main": {
+  //   "children": [
+  //     "flex-layout.col#left",
+  //     "flex-layout.col#right"
+  //   ]
+  // },
+  // "flex-layout.col#left": {
+  //   "children": [
+  //     "product-images"
+  //   ]
+  // },
+  // "flex-layout.col#right": {
+  //   "children": [
+  //     "vtex.store-components:product-name",
+  //     "product-description",
+  //     "product-price",
+  //     "buy-button"
+  //   ]
+  // }
 }

@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#slider__controls": {
+    "children": [
+      "flex-layout.col#slider__controls"
+    ],
+    "props": {
+      "blockClass": "container--slider__controls"
+    }
+  },
+  "flex-layout.col#slider__controls": {
+    "children": [
+      "flex-layout.row#title__controls",
+      "flex-layout.row#images__controls"
+    ]
+  },
+  "flex-layout.row#title__controls": {
+    "children": [
+      "flex-layout.col#title__controls"
+    ]
+  },
+  "flex-layout.col#title__controls": {
+    "children": [
+      "rich-text#title__controls"
+    ]
+  },
+  "rich-text#title__controls": {
+    "props": {
+      "text": "Controles PS5",
+      "blockClass": "title--controls"
+    }
+  },
+  "flex-layout.row#images__controls": {
+    "children": [
+      "flex-layout.col#control__1",
+      "flex-layout.col#control__2",
+      "flex-layout.col#control__3"
+    ]
+  },
+  "flex-layout.col#control__1": {
+    "children": [
+      "image#control__1",
+      "rich-text#control__1"
+    ]
+  },
+  "image#control__1": {
+    "props": {
+      "src": "assets/products/controles/control-4.webp",
+      "link": {
+        "url": "/proximamente"
+      },
+      "blockClass": "image--control"
+    }
+  },
+  "rich-text#control__1": {
+    "props": {
+      "text": "Control inalámbrico DualSense | ***Azul***",
+      "blockClass": "text--control"
+    }
+  },
+  "flex-layout.col#control__2": {
+    "children": [
+      "image#control__2",
+      "rich-text#control__2"
+    ]
+  },
+  "image#control__2": {
+    "props": {
+      "src": "assets/products/controles/control-2.webp",
+      "link": {
+        "url": "/proximamente"
+      },
+      "blockClass": "image--control"
+    }
+  },
+  "rich-text#control__2": {
+    "props": {
+      "text": "Control inalámbrico DualSense | ***Negro***",
+      "blockClass": "text--control"
+    }
+  },
+  "flex-layout.col#control__3": {
+    "children": [
+      "image#control__3",
+      "rich-text#control__3"
+    ]
+  },
+  "image#control__3": {
+    "props": {
+      "src": "assets/products/controles/control-3.webp",
+      "link": {
+        "url": "/proximamente"
+      },
+      "blockClass": "image--control"
+    }
+  },
+  "rich-text#control__3": {
+    "props": {
+      "text": "Control inalámbrico DualSense | ***Blanco***",
+      "blockClass": "text--control"
+    }
+  }
+}

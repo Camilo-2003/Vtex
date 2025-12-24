@@ -42,6 +42,10 @@
         "phone": 1
       },
       "infinite": true,
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
       "showNavigationArrows": "never",
       "blockClass": "home-slider-dots"
     }

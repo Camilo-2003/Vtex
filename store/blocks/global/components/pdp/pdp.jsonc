@@ -32,10 +32,6 @@
   },
   "flex-layout.col#product__image": {
     "title": "Global Col product image",
-    "props": {
-      "width": "60%",
-      "rowGap": 0
-    },
     "children": [
       "product-images#global__pdp"
     ]
@@ -43,7 +39,8 @@
   "product-images#global__pdp": {
     "title": "Global product images",
     "props": {
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "blockClass": "container-image"
     }
   },
 
@@ -55,13 +52,14 @@
     },
     "children": [
       "vtex.store-components:product-name#global__product--name",
+      "product-description",
       "product-price",
       "product-separator",
       "product-quantity",
       "product-identifier.product",
       "sku-selector",
-      "flex-layout.row",
-      "shipping-simulator",
+      "buy-button#pdp",
+      // "shipping-simulator",
       "share"
     ]
   },
@@ -72,16 +70,23 @@
       "showBrandName": true
     }
   },
+  "buy-button#pdp": {
+    "props": {
+      "blockClass": "buttonText--buy-button"
+    }
+  },
   "shelf.relatedProducts": {
     "blocks": [
-      "product-summary.shelf"
+      // "product-summary.shelf#demo1"
+      "product-summary.shelf#plp"
     ],
     "props": {
       "recommendation": "view",
       "productList": {
         "titleText": "Productos relacionados",  
           "itemsPerPage": 3
-      }
+      },
+      "blockClass": "relatedProducts"
     }
   }
 

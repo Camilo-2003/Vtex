@@ -4,26 +4,47 @@
   //     "product-summary.shelf#demo1"
   //   ],
   //   "children": [
+  //     "rich-text#demo__title",
   //     "slider-layout#demo-products"
-  //   ]
+  //   ],
+  //   "props": {
+  //     "maxItems": 5
+  //   }
+  // },
+  // "rich-text#demo__title": {
+  //   "title": "Titulo de Product-summary",
+  //   "props": {
+  //     "text": "# Demo",
+  //     "textPosition": "CENTER"
+  //   }  
   // },
   // "product-summary.shelf#demo1": {
   //   "children": [
   //     "product-summary-image",
-  //     "stack-layout",
+  //     "product-summary-brand",
+  //     // "stack-layout",
   //     "product-summary-name",
-  //     "product-rating-inline",
+  //     // "product-rating-inline",
   //     "product-summary-space",
-  //     "product-summary-price",
-  //     "product-summary-buy-button#add-to-cart"
-  //   ]
-  // },
-  // "product-summary-buy-button#add-to-cart": {
+  //     "product-summary-price#demo",
+  //     "add-to-cart-button#add-to-cart"
+  //   ],
   //   "props": {
-  //     "text": "Añadir al carrito"
+  //     "blockClass": "product-summary--demo1"
   //   }
   // },
-
+  // "product-summary-price#demo": {
+  //   "props": {
+  //     "showListPrice": false,
+  //     "showInstallments": false
+  //   }
+  // },
+  // "add-to-cart-button#add-to-cart": {
+  //   "props": {
+  //     "text": "Añadir al carrito",
+  //     "blockClass": "buy-button--demo1"
+  //   }
+  // },
 
   // "slider-layout#demo-products": {
   //   "title": "Slider home demo products",
@@ -32,8 +53,9 @@
   //       "desktop": 6,
   //       "tablet": 4,
   //       "phone": 2
-  //     }, 
-  //     "infinite": true
+  //     },
+  //     "infinite": true,
+  //     "blockClass": "product-summary--demo1"
   //   }
   // }
 }

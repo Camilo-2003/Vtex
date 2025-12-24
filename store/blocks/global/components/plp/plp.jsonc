@@ -1,29 +1,60 @@
 {
-  "search-content#global__search--layout": {
-    "title": "Search content",
-    "blocks": [
-      "gallery#global__search",
-      "not-found"
-    ]
-  },
-
-  "flex-layout.row#container__result--order-filter": {
-    "title": "Container result filter and order",
+  "gallery-layout-switcher#diferentes__vistas": {
     "children": [
-      "order-by.v2",
-      "filter-navigator.v3"
+      "gallery-layout-option#whole",
+      "gallery-layout-option#two",
+      "gallery-layout-option#many",
+      "breadcrumb.search",
+      "search-title.v2"
     ],
     "props": {
-       
+      "blockClass": "gallery-layout-switcher"
     }
   },
-
+  "search-content#global__search--layout": {
+    "title": "Search content",
+    "blocks": ["gallery#global__search", "not-found"]
+  },
+  "flex-layout.row#container__result--plp": {
+    "title": "Container result filter and order",
+    "children": [
+      "flex-layout.col#container__result--filter",
+      "flex-layout.col#container__order-and-content"
+    ]
+  },
+  "flex-layout.col#container__result--filter": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "width": "17%"
+    }
+  },
+  "filter-navigator.v3": {
+    "title": "Filter result layout",
+    "props": {
+      "truncateFilters": true,
+      "fullWidthOnMobile": true,
+      "navigationTypeOnMobile": "collapsible",
+      "totalProductsOnMobile": "show",
+      "updateOnFilterSelectionOnMobile": true
+    }
+  },
+  "flex-layout.col#container__order-and-content": {
+    "children": ["flex-layout.row#order-by.v2", "flex-layout.row#content__result--plp"],
+    "props": {
+      "width": "83%"
+    }
+  },
+  "flex-layout.row#order-by.v2": {
+    "children": ["order-by.v2"]
+  },
   "order-by.v2": {
     "title": "Order by result layout"
   },
-
-  "filter-navigator.v3": {
-    "title": "Filter result layout"
+  "flex-layout.row#content__result--plp": {
+    "children": ["search-content#global__search--layout"],
+    "props": {
+      "blockClass": "Contenedor__resultado"
+    }
   },
   "gallery#global__search": {
     "props": {
@@ -42,44 +73,56 @@
           "name": "many",
           "component": "ManyByLineSummary",
           "itemsPerRow": {
-            "desktop": 5,
+            "desktop": 3,
             "mobile": 1
           }
         }
       ],
-      "OneOrTwoLineSummary": "product-summary.shelf",
-      "ManyByLineSummary": "product-summary.shelf"
+      "OneOrTwoLineSummary": "product-summary.shelf#plp",
+      "ManyByLineSummary": "product-summary.shelf#plp"
     }
   },
-    "gallery-layout-switcher": {
-      "children": [
-        "gallery-layout-option#whole",
-        "gallery-layout-option#two",
-        "gallery-layout-option#many"
-      ]
-    },
-    "gallery-layout-option#whole": {
-      "props": {
-        "name": "whole"
-      },
-      "children": [
-        "icon-single-grid"
-      ]
-    },
-    "gallery-layout-option#two": {
-      "props": {
-        "name": "two"
-      },
-      "children": [
-        "icon-inline-grid"
-      ]
-    },
-    "gallery-layout-option#many": {
-      "props": {
-        "name": "many"
-      },
-      "children": [
-        "icon-menu"
-      ]
+  "product-summary.shelf#plp": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price#plp",
+      "add-to-cart-button#plp"
+    ],
+    "props": {
+      "blockClass": "card__product-summary--plp"
     }
+  },
+  "product-summary-price#plp": {
+    "props": {
+      "showListPrice": false,
+      "showInstallments": false
+    }
+  },
+  "add-to-cart-button#plp": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button--demo1"
+    }
+  },
+  "gallery-layout-option#whole": {
+    "props": {
+      "name": "whole"
+    },
+    "children": ["icon-single-grid"]
+  },
+  "gallery-layout-option#two": {
+    "props": {
+      "name": "two"
+    },
+    "children": ["icon-inline-grid"]
+  },
+  "gallery-layout-option#many": {
+    "props": {
+      "name": "many"
+    },
+    "children": ["icon-menu"]
+  }
 }

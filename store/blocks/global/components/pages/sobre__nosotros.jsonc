@@ -3,6 +3,7 @@
     "title": "Page of about us",
     "children": [
       "flex-layout.row#page__sobre__nosotros",
+      // "list-context.product-list#demo1",
       "whatsapp-button"
     ]
   },

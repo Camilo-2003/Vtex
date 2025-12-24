@@ -22,5 +22,8 @@
   },
   "store.custom#fuentes": {
     "path": "/fuentes"
+  },
+  "store.custom#proximamente": {
+    "path": "/proximamente"
   }
 }

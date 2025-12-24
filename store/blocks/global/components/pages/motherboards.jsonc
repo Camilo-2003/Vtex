@@ -34,7 +34,9 @@
   "flex-layout.col#motherboards": {
     "children": [
       "flex-layout.row#motherboards__1",
-      "flex-layout.row#motherboards__2"
+      "flex-layout.row#motherboards__2",
+      "flex-layout.row#motherboards__3",
+      "flex-layout.row#motherboards__4"
     ],
     "props": {
       "blockClass": "col__tarjetas"
@@ -388,6 +390,357 @@
     }
   },
   "rich-text#motherboard__button-8": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.row#motherboards__3": {
+    "children": [
+      "flex-layout.col#motherboards-9",
+      "flex-layout.col#motherboards-10",
+      "flex-layout.col#motherboards-11",
+      "flex-layout.col#motherboards-12"
+    ]
+  },
+  "flex-layout.col#motherboards-9": {
+    "children": [
+      "image#motherboard-9",
+      "rich-text#motherboard__title-9",
+      "rich-text#descripcion__motherboard-9",
+      "rich-text#precio__motherboard-9",
+      "rich-text#motherboard__button-9"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-9": {
+    "props": {
+      "src": "assets/products/motherboards/m-9.webp"
+    }
+  },
+  "rich-text#motherboard__title-9": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-9": {
+    "props": {
+      "text": "Board Asrock INTEL H810M X Wifi LGA 1851 Micro ATX DDR5",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-9": {
+    "props": {
+      "text": "$ 510.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-9": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-10": {
+    "children": [
+      "image#motherboard-10",
+      "rich-text#motherboard__title-10",
+      "rich-text#descripcion__motherboard-10",
+      "rich-text#precio__motherboard-10",
+      "rich-text#motherboard__button-10"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-10": {
+    "props": {
+      "src": "assets/products/motherboards/m-10.webp"
+    }
+  },
+  "rich-text#motherboard__title-10": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-10": {
+    "props": {
+      "text": "Board Asrock AMD X870 Steel Legend Wifi AM5 ATX DDR5",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-10": {
+    "props": {
+      "text": "$ 1.282.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-10": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-11": {
+    "children": [
+      "image#motherboard-11",
+      "rich-text#motherboard__title-11",
+      "rich-text#descripcion__motherboard-11",
+      "rich-text#precio__motherboard-11",
+      "rich-text#motherboard__button-11"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-11": {
+    "props": {
+      "src": "assets/products/motherboards/m-11.webp"
+    }
+  },
+  "rich-text#motherboard__title-11": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-11": {
+    "props": {
+      "text": "Board Asrock AMD H610M PG Lightning Wifi",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-11": {
+    "props": {
+      "text": "$ 604.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-11": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-12": {
+    "children": [
+      "image#motherboard-12",
+      "rich-text#motherboard__title-12",
+      "rich-text#descripcion__motherboard-12",
+      "rich-text#precio__motherboard-12",
+      "rich-text#motherboard__button-12"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-12": {
+    "props": {
+      "src": "assets/products/motherboards/m-12.webp"
+    }
+  },
+  "rich-text#motherboard__title-12": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-12": {
+    "props": {
+      "text": "Board Asrock INTEL H370M-HDV LGA 1151 Micro ATX Soporta 8th y 9 th Generacion DDR4",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-12": {
+    "props": {
+      "text": "$ 260.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-12": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.row#motherboards__4": {
+    "children": [
+      "flex-layout.col#motherboards-13",
+      "flex-layout.col#motherboards-14",
+      "flex-layout.col#motherboards-15",
+      "flex-layout.col#motherboards-16"
+    ]
+  },
+  "flex-layout.col#motherboards-13": {
+    "children": [
+      "image#motherboard-13",
+      "rich-text#motherboard__title-13",
+      "rich-text#descripcion__motherboard-13",
+      "rich-text#precio__motherboard-13",
+      "rich-text#motherboard__button-13"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-13": {
+    "props": {
+      "src": "assets/products/motherboards/m-9.webp"
+    }
+  },
+  "rich-text#motherboard__title-13": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-13": {
+    "props": {
+      "text": "Board Asrock INTEL H810M X Wifi LGA 1851 Micro ATX DDR5",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-13": {
+    "props": {
+      "text": "$ 510.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-13": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-14": {
+    "children": [
+      "image#motherboard-14",
+      "rich-text#motherboard__title-14",
+      "rich-text#descripcion__motherboard-14",
+      "rich-text#precio__motherboard-14",
+      "rich-text#motherboard__button-14"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-14": {
+    "props": {
+      "src": "assets/products/motherboards/m-10.webp"
+    }
+  },
+  "rich-text#motherboard__title-14": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-14": {
+    "props": {
+      "text": "Board Asrock AMD X870 Steel Legend Wifi AM5 ATX DDR5",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-14": {
+    "props": {
+      "text": "$ 1.282.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-14": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-15": {
+    "children": [
+      "image#motherboard-15",
+      "rich-text#motherboard__title-15",
+      "rich-text#descripcion__motherboard-15",
+      "rich-text#precio__motherboard-15",
+      "rich-text#motherboard__button-15"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-15": {
+    "props": {
+      "src": "assets/products/motherboards/m-11.webp"
+    }
+  },
+  "rich-text#motherboard__title-15": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-15": {
+    "props": {
+      "text": "Board Asrock AMD H610M PG Lightning Wifi",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-15": {
+    "props": {
+      "text": "$ 604.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-15": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-16": {
+    "children": [
+      "image#motherboard-16",
+      "rich-text#motherboard__title-16",
+      "rich-text#descripcion__motherboard-16",
+      "rich-text#precio__motherboard-16",
+      "rich-text#motherboard__button-16"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#motherboard-16": {
+    "props": {
+      "src": "assets/products/motherboards/m-12.webp"
+    }
+  },
+  "rich-text#motherboard__title-16": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-16": {
+    "props": {
+      "text": "Board Asrock INTEL H370M-HDV LGA 1151 Micro ATX Soporta 8th y 9 th Generacion DDR4",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-16": {
+    "props": {
+      "text": "$ 260.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-16": {
     "props": {
       "text": "Añadir al carrito",
       "blockClass": "buy-button"

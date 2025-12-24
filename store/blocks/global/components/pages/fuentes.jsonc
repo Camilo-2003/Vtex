@@ -368,7 +368,7 @@
   
   "image#fuente-8": {
     "props": {
-      "src": "assets/products/fuentes/f-7.webp"
+      "src": "assets/products/fuentes/f-1.webp"
     }
   },
   "rich-text#fuente__title-8": {
@@ -379,13 +379,13 @@
   },
   "rich-text#descripcion__fuente-8": {
     "props": {
-      "text": "Fuente Corsair 850W Gold Modular",
+      "text": "Fuente Gigabyte 852W 90 Plus Gold White Edition Modular",
       "blockClass": "featured-description"
     }
   },
   "rich-text#precio__fuente-8": {
     "props": {
-      "text": "$ 603.000",
+      "text": "$ 580.000",
       "blockClass": "price"
     }
   },

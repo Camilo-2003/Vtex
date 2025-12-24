@@ -1,0 +1,38 @@
+.productBrandContainer {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 1px;
+  margin-top: -1px;
+  opacity: 0.7; 
+}
+.sellingPriceContainer {
+  padding: 0;
+  margin: 0;
+}
+.currencyContainer {
+  color: #c9591b;
+  font-size: 23px;
+  font-weight: 600;
+}
+.productBrand {
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+}
+.imageWrapper {
+  height: 100%;
+}
+.imageStackContainer {
+  height: 100%;
+}
+.image {
+  height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+/* Proximamente */
+.container--card__product-summary--plp {
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 5px;
+}

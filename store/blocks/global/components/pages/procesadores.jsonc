@@ -7,12 +7,10 @@
       "whatsapp-button"
     ]
   },
-  
+
   "flex-layout.row#view__procesadores--text": {
     "title": "Row page procesadores text",
-    "children": [
-      "rich-text#view__procesadores--text"
-    ],
+    "children": ["rich-text#view__procesadores--text"],
     "props": {
       "blockClass": "view__container-title"
     }
@@ -27,9 +25,7 @@
   },
   "flex-layout.row#contenido__category-procesadores": {
     "title": "Row Contenido of procesadores",
-    "children": [
-      "flex-layout.col#procesadores"
-    ],
+    "children": ["flex-layout.col#procesadores"],
     "props": {
       "blockClass": "contenido__tarjeta"
     }
@@ -37,7 +33,9 @@
   "flex-layout.col#procesadores": {
     "children": [
       "flex-layout.row#procesadores__1",
-      "flex-layout.row#procesadores__2"
+      "flex-layout.row#procesadores__2",
+      "flex-layout.row#procesadores__3",
+      "flex-layout.row#procesadores__4"
     ],
     "props": {
       "blockClass": "col__tarjetas"
@@ -91,7 +89,8 @@
       "text": "Añadir al carrito",
       "blockClass": "buy-button"
     }
-  }, "flex-layout.col#procesadores-2": {
+  },
+  "flex-layout.col#procesadores-2": {
     "children": [
       "image#procesador-2",
       "rich-text#procesador__title-2",
@@ -131,7 +130,8 @@
       "text": "Añadir al carrito",
       "blockClass": "buy-button"
     }
-  }, "flex-layout.col#procesadores-3": {
+  },
+  "flex-layout.col#procesadores-3": {
     "children": [
       "image#procesador-3",
       "rich-text#procesador__title-3",
@@ -171,7 +171,8 @@
       "text": "Añadir al carrito",
       "blockClass": "buy-button"
     }
-  }, "flex-layout.col#procesadores-4": {
+  },
+  "flex-layout.col#procesadores-4": {
     "children": [
       "image#procesador-4",
       "rich-text#procesador__title-4",
@@ -212,7 +213,7 @@
       "blockClass": "buy-button"
     }
   },
-    "flex-layout.row#procesadores__2": {
+  "flex-layout.row#procesadores__2": {
     "children": [
       "flex-layout.col#procesadores-5",
       "flex-layout.col#procesadores-6",
@@ -386,6 +387,352 @@
       "text": "Añadir al carrito",
       "blockClass": "buy-button"
     }
-  }
+  },
+  "flex-layout.row#procesadores__3": {
+    "children": [
+      "flex-layout.col#procesadores-9",
+      "flex-layout.col#procesadores-10",
+      "flex-layout.col#procesadores-11",
+      "flex-layout.col#procesadores-12"
+    ]
+  },
+  "flex-layout.col#procesadores-9": {
+    "children": [
+      "image#procesador-9",
+      "rich-text#procesador__title-9",
+      "rich-text#procesador__descripcion-9",
+      "rich-text#precio__procesador-9",
+      "rich-text#procesador__button-9"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-9": {
+    "props": {
+      "src": "assets/products/procesadores/p-9.webp"
+    }
+  },
+  "rich-text#procesador__title-9": {
+    "props": {
+      "text": "Intel",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-9": {
+    "props": {
+      "text": "Procesador Intel Core Ultra 7 265K 20 Nucleos Lga 1851",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-9": {
+    "props": {
+      "text": "$ 1.641.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-9": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#procesadores-10": {
+    "children": [
+      "image#procesador-10",
+      "rich-text#procesador__title-10",
+      "rich-text#procesador__descripcion-10",
+      "rich-text#precio__procesador-10",
+      "rich-text#procesador__button-10"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-10": {
+    "props": {
+      "src": "assets/products/procesadores/p-10.webp"
+    }
+  },
+  "rich-text#procesador__title-10": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-10": {
+    "props": {
+      "text": "Procesador AMD Ryzen 3 3200G 4 Nucleos AM4 Grafica Radeon",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-10": {
+    "props": {
+      "text": "$ 347.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-10": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#procesadores-11": {
+    "children": [
+      "image#procesador-11",
+      "rich-text#procesador__title-11",
+      "rich-text#procesador__descripcion-11",
+      "rich-text#precio__procesador-11",
+      "rich-text#procesador__button-11"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-11": {
+    "props": {
+      "src": "assets/products/procesadores/p-11.webp"
+    }
+  },
+  "rich-text#procesador__title-11": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-11": {
+    "props": {
+      "text": "Procesador AMD Ryzen 5 7600X 6 Nucleos AM5 Sin Cooler",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-11": {
+    "props": {
+      "text": "$ 880.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-11": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#procesadores-12": {
+    "children": [
+      "image#procesador-12",
+      "rich-text#procesador__title-12",
+      "rich-text#procesador__descripcion-12",
+      "rich-text#precio__procesador-12",
+      "rich-text#procesador__button-12"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-12": {
+    "props": {
+      "src": "assets/products/procesadores/p-12.webp"
+    }
+  },
+  "rich-text#procesador__title-12": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-12": {
+    "props": { 
+      "text": "Procesador AMD Ryzen 9 7950X 16 Nucleos AM5 Sin Cooler",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-12": {
+    "props": {
+      "text": "$ 2.337.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-12": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.row#procesadores__4": {
+    "children": [
+      "flex-layout.col#procesadores-13",
+      "flex-layout.col#procesadores-14",
+      "flex-layout.col#procesadores-15",
+      "flex-layout.col#procesadores-16"
+    ]
+  },
+  "flex-layout.col#procesadores-13": {
+    "children": [
+      "image#procesador-13",
+      "rich-text#procesador__title-13",
+      "rich-text#procesador__descripcion-13",
+      "rich-text#precio__procesador-13",
+      "rich-text#procesador__button-13"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-13": {
+    "props": {
+      "src": "assets/products/procesadores/p-9.webp"
+    }
+  },
+  "rich-text#procesador__title-13": {
+    "props": {
+      "text": "Intel",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-13": {
+    "props": {
+      "text": "Procesador Intel Core Ultra 7 265K 20 Nucleos Lga 1851",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-13": {
+    "props": {
+      "text": "$ 1.641.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-13": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#procesadores-14": {
+    "children": [
+      "image#procesador-14",
+      "rich-text#procesador__title-14",
+      "rich-text#procesador__descripcion-14",
+      "rich-text#precio__procesador-14",
+      "rich-text#procesador__button-14"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
 
+  "image#procesador-14": {
+    "props": {
+      "src": "assets/products/procesadores/p-10.webp"
+    }
+  },
+  "rich-text#procesador__title-14": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-14": {
+    "props": {
+      "text": "Procesador AMD Ryzen 3 3200G 4 Nucleos AM4 Grafica Radeon",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-14": {
+    "props": {
+      "text": "$ 347.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-14": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#procesadores-15": {
+    "children": [
+      "image#procesador-15",
+      "rich-text#procesador__title-15",
+      "rich-text#procesador__descripcion-15",
+      "rich-text#precio__procesador-15",
+      "rich-text#procesador__button-15"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#procesador-15": {
+    "props": {
+      "src": "assets/products/procesadores/p-11.webp"
+    }
+  },
+  "rich-text#procesador__title-15": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-15": {
+    "props": {
+      "text": "Procesador AMD Ryzen 5 7600X 6 Nucleos AM5 Sin Cooler",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-15": {
+    "props": {
+      "text": "$ 880.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-15": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#procesadores-16": {
+    "children": [
+      "image#procesador-16",
+      "rich-text#procesador__title-16",
+      "rich-text#procesador__descripcion-16",
+      "rich-text#precio__procesador-16",
+      "rich-text#procesador__button-16"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#procesador-16": {
+    "props": {
+      "src": "assets/products/procesadores/p-12.webp"
+    }
+  },
+  "rich-text#procesador__title-16": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-16": {
+    "props": {
+      "text": "Procesador AMD Ryzen 9 7950X 16 Nucleos AM5 Sin Cooler",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-16": {
+    "props": {
+      "text": "$ $ 2.337.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-16": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  }
 }

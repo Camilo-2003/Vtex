@@ -1,0 +1,26 @@
+{
+  "store.custom#proximamente": {
+    "title": "Página de Próximamente",
+    "children": [
+      // "rich-text#proximamente--text",
+      "image#proximamente"
+    ]
+  },
+  
+  // "rich-text#proximamente--text": {
+  //   "title": "Texto de la página proximamente",
+  //   "props": {
+  //     "text": "Próximamente",
+  //     "textPosition": "CENTER",
+  //     "font": "t-heading-3"
+  //   }
+  // },
+
+  "image#proximamente": {
+    "props": {
+      "src": "assets/img/proximamente.jpg",
+      "blockClass": "proximamente--image"
+    }
+  }
+
+}

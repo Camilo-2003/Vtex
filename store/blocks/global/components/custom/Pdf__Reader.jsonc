@@ -1,0 +1,10 @@
+{
+  "pdf-reader": {
+    "title": "PDF Reader",
+    "props": {
+      "url": "assets/documents/Lorem_ipsum.pdf",
+      "width": 900,
+      "height": 520
+    }
+  }
+}

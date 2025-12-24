@@ -22,9 +22,7 @@
   },
   "flex-layout.row#contenido__category-ram": {
     "title": "Row Contenido of tarjetas de video",
-    "children": [
-      "flex-layout.col#ram"
-    ],
+    "children": ["flex-layout.col#ram"],
     "props": {
       "blockClass": "contenido__tarjeta"
     }
@@ -32,8 +30,8 @@
 
   "flex-layout.col#ram": {
     "children": [
-      "flex-layout.row#ram__1", 
-      "flex-layout.row#ram__2"
+      "flex-layout.row#ram__1"
+      // "flex-layout.row#ram__2"
     ],
     "props": {
       "blockClass": "col__tarjetas"
@@ -63,7 +61,7 @@
 
   "image#ram-1": {
     "props": {
-      "src": "assets/products/destacados/p1.webp"
+      "src": "assets/products/ram/ram-1.png"
     }
   },
   "rich-text#ram__title-1": {
@@ -74,13 +72,13 @@
   },
   "rich-text#ram__descripcion-1": {
     "props": {
-      "text": " ",
+      "text": "Memoria Kingston Ddr4 4 Ram 4Gb Voltaje 1.2V F 2666 Mhz",
       "blockClass": "featured-description"
     }
   },
   "rich-text#precio__ram-1": {
     "props": {
-      "text": "$ 0",
+      "text": "$ 85.000",
       "blockClass": "price"
     }
   },
@@ -105,7 +103,7 @@
 
   "image#ram-2": {
     "props": {
-      "src": "assets/products/destacados/p8.webp"
+      "src": "assets/products/ram/ram-2.webp"
     }
   },
   "rich-text#ram__title-2": {
@@ -116,13 +114,13 @@
   },
   "rich-text#ram__descripcion-2": {
     "props": {
-      "text": " ",
+      "text": "Memoria Ram Portátil 16Gb Ddr5 Adata 4800 Mt/S",
       "blockClass": "featured-description"
     }
   },
   "rich-text#precio__ram-2": {
     "props": {
-      "text": "$ 0",
+      "text": "$ 650.000",
       "blockClass": "price"
     }
   },
@@ -148,7 +146,7 @@
 
   "image#ram-3": {
     "props": {
-      "src": "assets/products/destacados/p3.webp"
+      "src": "assets/products/ram/ram-3.webp"
     }
   },
   "rich-text#ram__title-3": {
@@ -159,13 +157,13 @@
   },
   "rich-text#ram__descripcion-3": {
     "props": {
-      "text": " ",
+      "text": "Memoria Ram Adata Para Portatil 16Gb 3200Mhz",
       "blockClass": "featured-description"
     }
   },
   "rich-text#precio__ram-3": {
     "props": {
-      "text": "$ 0",
+      "text": "$ 520.000",
       "blockClass": "price"
     }
   },
@@ -190,7 +188,7 @@
 
   "image#ram-4": {
     "props": {
-      "src": "assets/products/destacados/p4.webp"
+      "src": "assets/products/ram/ram-4.webp"
     }
   },
   "rich-text#ram__title-4": {
@@ -201,13 +199,13 @@
   },
   "rich-text#ram__descripcion-4": {
     "props": {
-      "text": " ",
+      "text": "Memoria Ram Para Portatil 8Gb Ddr4 3200 Mhz Adata",
       "blockClass": "featured-description"
     }
   },
   "rich-text#precio__ram-4": {
     "props": {
-      "text": "$ 0",
+      "text": "$ 290.000",
       "blockClass": "price"
     }
   },
@@ -216,180 +214,180 @@
       "text": "Añadir al carrito",
       "blockClass": "buy-button"
     }
-  },
-  "flex-layout.row#ram__2": {
-    "children": [
-      "flex-layout.col#ram-5",
-      "flex-layout.col#ram-6",
-      "flex-layout.col#ram-7",
-      "flex-layout.col#ram-8"
-    ]
-  },
-  "flex-layout.col#ram-5": {
-    "children": [
-      "image#ram-5",
-      "rich-text#ram__title-5",
-      "rich-text#ram__descripcion-5",
-      "rich-text#precio__ram-5",
-      "rich-text#ram__button-5"
-    ],
-    "props": {
-      "blockClass": "static-shelf-item"
-    }
-  },
-  "image#ram-5": {
-    "props": {
-      "src": "assets/products/destacados/p1.webp"
-    }
-  },
-  "rich-text#ram__title-5": {
-    "props": {
-      "text": "Ram",
-      "blockClass": "featured-category"
-    }
-  },
-  "rich-text#ram__descripcion-5": {
-    "props": {
-      "text": " ",
-      "blockClass": "featured-description"
-    }
-  },
-  "rich-text#precio__ram-5": {
-    "props": {
-      "text": "$ 0",
-      "blockClass": "price"
-    }
-  },
-  "rich-text#ram__button-5": {
-    "props": {
-      "text": "Añadir al carrito",
-      "blockClass": "buy-button"
-    }
-  },
-  "flex-layout.col#ram-6": {
-    "children": [
-      "image#ram-6",
-      "rich-text#ram__title-6",
-      "rich-text#ram__descripcion-6",
-      "rich-text#precio__ram-6",
-      "rich-text#ram__button-6"
-    ],
-    "props": {
-      "blockClass": "static-shelf-item"
-    }
-  },
-
-  "image#ram-6": {
-    "props": {
-      "src": "assets/products/destacados/p8.webp"
-    }
-  },
-  "rich-text#ram__title-6": {
-    "props": {
-      "text": "Ram",
-      "blockClass": "featured-category"
-    }
-  },
-  "rich-text#ram__descripcion-6": {
-    "props": {
-      "text": " ",
-      "blockClass": "featured-description"
-    }
-  },
-  "rich-text#precio__ram-6": {
-    "props": {
-      "text": "$ 0",
-      "blockClass": "price"
-    }
-  },
-  "rich-text#ram__button-6": {
-    "props": {
-      "text": "Añadir al carrito",
-      "blockClass": "buy-button"
-    }
-  },
-  "flex-layout.col#ram-7": {
-    "children": [
-      "image#ram-7",
-      "rich-text#ram__title-7",
-      "rich-text#ram__descripcion-7",
-      "rich-text#precio__ram-7",
-      "rich-text#ram__button-7"
-    ],
-    "props": {
-      "blockClass": "static-shelf-item"
-    }
-  },
-
-  "image#ram-7": {
-    "props": {
-      "src": "assets/products/destacados/p3.webp"
-    }
-  },
-  "rich-text#ram__title-7": {
-    "props": {
-      "text": "Ram",
-      "blockClass": "featured-category"
-    }
-  },
-  "rich-text#ram__descripcion-7": {
-    "props": {
-      "text": " ",
-      "blockClass": "featured-description"
-    }
-  },
-  "rich-text#precio__ram-7": {
-    "props": {
-      "text": "$ 0",
-      "blockClass": "price"
-    }
-  },
-  "rich-text#ram__button-7": {
-    "props": {
-      "text": "Añadir al carrito",
-      "blockClass": "buy-button"
-    }
-  },
-  "flex-layout.col#ram-8": {
-    "children": [
-      "image#ram-8",
-      "rich-text#ram__title-8",
-      "rich-text#ram__descripcion-8",
-      "rich-text#precio__ram-8",
-      "rich-text#ram__button-8"
-    ],
-    "props": {
-      "blockClass": "static-shelf-item"
-    }
-  },
-
-  "image#ram-8": {
-    "props": {
-      "src": "assets/products/destacados/p4.webp"
-    }
-  },
-  "rich-text#ram__title-8": {
-    "props": {
-      "text": "Ram",
-      "blockClass": "featured-category"
-    }
-  },
-  "rich-text#ram__descripcion-8": {
-    "props": {
-      "text": " ",
-      "blockClass": "featured-description"
-    }
-  },
-  "rich-text#precio__ram-8": {
-    "props": {
-      "text": "$ 0",
-      "blockClass": "price"
-    }
-  },
-  "rich-text#ram__button-8": {
-    "props": {
-      "text": "Añadir al carrito",
-      "blockClass": "buy-button"
-    }
   }
+  // "flex-layout.row#ram__2": {
+  //   "children": [
+  //     "flex-layout.col#ram-5",
+  //     "flex-layout.col#ram-6",
+  //     "flex-layout.col#ram-7",
+  //     "flex-layout.col#ram-8"
+  //   ]
+  // },
+  // "flex-layout.col#ram-5": {
+  //   "children": [
+  //     "image#ram-5",
+  //     "rich-text#ram__title-5",
+  //     "rich-text#ram__descripcion-5",
+  //     "rich-text#precio__ram-5",
+  //     "rich-text#ram__button-5"
+  //   ],
+  //   "props": {
+  //     "blockClass": "static-shelf-item"
+  //   }
+  // },
+  // "image#ram-5": {
+  //   "props": {
+  //     "src": "assets/products/destacados/p1.webp"
+  //   }
+  // },
+  // "rich-text#ram__title-5": {
+  //   "props": {
+  //     "text": "Ram",
+  //     "blockClass": "featured-category"
+  //   }
+  // },
+  // "rich-text#ram__descripcion-5": {
+  //   "props": {
+  //     "text": " ",
+  //     "blockClass": "featured-description"
+  //   }
+  // },
+  // "rich-text#precio__ram-5": {
+  //   "props": {
+  //     "text": "$ 0",
+  //     "blockClass": "price"
+  //   }
+  // },
+  // "rich-text#ram__button-5": {
+  //   "props": {
+  //     "text": "Añadir al carrito",
+  //     "blockClass": "buy-button"
+  //   }
+  // },
+  // "flex-layout.col#ram-6": {
+  //   "children": [
+  //     "image#ram-6",
+  //     "rich-text#ram__title-6",
+  //     "rich-text#ram__descripcion-6",
+  //     "rich-text#precio__ram-6",
+  //     "rich-text#ram__button-6"
+  //   ],
+  //   "props": {
+  //     "blockClass": "static-shelf-item"
+  //   }
+  // },
+
+  // "image#ram-6": {
+  //   "props": {
+  //     "src": "assets/products/destacados/p8.webp"
+  //   }
+  // },
+  // "rich-text#ram__title-6": {
+  //   "props": {
+  //     "text": "Ram",
+  //     "blockClass": "featured-category"
+  //   }
+  // },
+  // "rich-text#ram__descripcion-6": {
+  //   "props": {
+  //     "text": " ",
+  //     "blockClass": "featured-description"
+  //   }
+  // },
+  // "rich-text#precio__ram-6": {
+  //   "props": {
+  //     "text": "$ 0",
+  //     "blockClass": "price"
+  //   }
+  // },
+  // "rich-text#ram__button-6": {
+  //   "props": {
+  //     "text": "Añadir al carrito",
+  //     "blockClass": "buy-button"
+  //   }
+  // },
+  // "flex-layout.col#ram-7": {
+  //   "children": [
+  //     "image#ram-7",
+  //     "rich-text#ram__title-7",
+  //     "rich-text#ram__descripcion-7",
+  //     "rich-text#precio__ram-7",
+  //     "rich-text#ram__button-7"
+  //   ],
+  //   "props": {
+  //     "blockClass": "static-shelf-item"
+  //   }
+  // },
+
+  // "image#ram-7": {
+  //   "props": {
+  //     "src": "assets/products/destacados/p3.webp"
+  //   }
+  // },
+  // "rich-text#ram__title-7": {
+  //   "props": {
+  //     "text": "Ram",
+  //     "blockClass": "featured-category"
+  //   }
+  // },
+  // "rich-text#ram__descripcion-7": {
+  //   "props": {
+  //     "text": " ",
+  //     "blockClass": "featured-description"
+  //   }
+  // },
+  // "rich-text#precio__ram-7": {
+  //   "props": {
+  //     "text": "$ 0",
+  //     "blockClass": "price"
+  //   }
+  // },
+  // "rich-text#ram__button-7": {
+  //   "props": {
+  //     "text": "Añadir al carrito",
+  //     "blockClass": "buy-button"
+  //   }
+  // },
+  // "flex-layout.col#ram-8": {
+  //   "children": [
+  //     "image#ram-8",
+  //     "rich-text#ram__title-8",
+  //     "rich-text#ram__descripcion-8",
+  //     "rich-text#precio__ram-8",
+  //     "rich-text#ram__button-8"
+  //   ],
+  //   "props": {
+  //     "blockClass": "static-shelf-item"
+  //   }
+  // },
+
+  // "image#ram-8": {
+  //   "props": {
+  //     "src": "assets/products/destacados/p4.webp"
+  //   }
+  // },
+  // "rich-text#ram__title-8": {
+  //   "props": {
+  //     "text": "Ram",
+  //     "blockClass": "featured-category"
+  //   }
+  // },
+  // "rich-text#ram__descripcion-8": {
+  //   "props": {
+  //     "text": " ",
+  //     "blockClass": "featured-description"
+  //   }
+  // },
+  // "rich-text#precio__ram-8": {
+  //   "props": {
+  //     "text": "$ 0",
+  //     "blockClass": "price"
+  //   }
+  // },
+  // "rich-text#ram__button-8": {
+  //   "props": {
+  //     "text": "Añadir al carrito",
+  //     "blockClass": "buy-button"
+  //   }
+  // }
 }

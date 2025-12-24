@@ -9,8 +9,9 @@
   },
   "icon-cart#minicart-icon": {
     "props": {
-      "id": "hpa-cart2",
-      "size": 22
+      // "id": "hpa-cart2",
+      "id": "hpa-luokka",
+      "size": 20
     }
   },
   "minicart-base-content": {
